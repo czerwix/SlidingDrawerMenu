@@ -1,7 +1,9 @@
 # SlidingDrawerMenu
+//todo add library instructions 
+
 
 Add using gradle:
-compile 'com.mobeedev:SlidingdrawerMenu:1.0.0'
+implementation 'com.czerwii:SlidingdrawerMenu:1.0.0'
 
 add using maven:
 <dependency>
