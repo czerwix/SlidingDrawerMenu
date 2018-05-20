@@ -12,9 +12,8 @@ buildscript {
 }
 
 publish {
-    userOrg = 'mobeedev'
-    groupId = 'com.mobeedev'
-//    repoName  = 'Root repository'
+    userOrg = 'czerwii'
+    groupId = 'com.czerwii'
     artifactId = 'SlidingdrawerMenu'
     publishVersion = '1.0.0'
     desc = 'Sliding drawer menu with animation. ios styled'
@@ -41,6 +40,9 @@ android {
         }
     }
 
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
