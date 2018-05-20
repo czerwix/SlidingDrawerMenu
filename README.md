@@ -72,6 +72,9 @@ new SlidingMenuBuilder(this)
   .withContentClickableWhenMenuOpened(isClickable) //Pretty self-descriptive. Builder Default == true
 ```
 
+## Sample/Example
+If you need an example please checkout [sample app](sample/src/main/java/com/mobeedev/slidingdrawermenu)
+
 ## Contributing
 
 Feel free to create PR. I'll try and comment/check/merge all functionality.
