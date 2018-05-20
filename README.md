@@ -105,6 +105,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
+Full license can be found at [License](https://github.com/czerwix/SlidingDrawerMenu/blob/master/LICENSE)
+
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
