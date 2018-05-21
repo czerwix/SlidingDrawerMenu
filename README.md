@@ -88,7 +88,7 @@ If you have any Problems/bugs please file an issue. All issues must describe the
 
 * **Szymon Kraus** - *Other Projects* - [MoBeeDev](https://mobeedev.com)
 
-* **Seven Yu** - Big thx for the buetifull gif showing  *Other Projects* - [Behance](https://www.behance.net/joodu) , [Twitter](https://twitter.com/se7enyu)
+* **Seven Yu** - Big thx for the beautiful gif showing  *Other Projects* - [Behance](https://www.behance.net/joodu) , [Twitter](https://twitter.com/se7enyu)
 
 ## License
 ```
