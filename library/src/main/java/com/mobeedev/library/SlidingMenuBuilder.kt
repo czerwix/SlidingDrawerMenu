@@ -8,6 +8,7 @@ import android.support.annotation.LayoutRes
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.widget.Toolbar
 import android.view.LayoutInflater
+import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
 import com.mobeedev.library.dragstate.DragListener
@@ -110,6 +111,12 @@ open class SlidingMenuBuilder(private val activity: Activity) {
             contentView.addView(this)
 
             if (_savedState == null && _isMenuOpened) this.openMenu(false)
+
+            if (!_isContentClickableWhenMenuOpened) setOnTouchListener { _, event ->
+                if (event.action == MotionEvent.ACTION_DOWN) closeMenu()
+
+                true
+            }
 
             this.setMenuLocked(_isMenuLocked)
 
