@@ -70,7 +70,6 @@ class SlidingMenuLayout(context: Context) : FrameLayout(context), SlidingNavigat
     }
 
     private fun changeMenuVisibility(animated: Boolean, newDragProgress: Float) {
-        _isMenuHidden = calculateIsMenuHidden()
         if (animated) {
             val left = _positionHelper.getLeftToSettle(newDragProgress, _maxDragDistance)
             if (_dragHelper.smoothSlideViewTo(_rootBaseView, left, _rootBaseView.top)) {
@@ -81,6 +80,7 @@ class SlidingMenuLayout(context: Context) : FrameLayout(context), SlidingNavigat
             _rootTransformation.transform(dragProgress, _rootBaseView)
             requestLayout()
         }
+        _isMenuHidden = calculateIsMenuHidden()
     }
 
     private fun shouldBlockClick(event: MotionEvent) = when {
