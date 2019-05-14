@@ -8,14 +8,14 @@ Android Library providing menu below content styled sliding menu.
 
 Add library to your gradle:
 ```
-implementation 'com.czerwii:SlidingdrawerMenu:1.0.0'
+implementation 'com.czerwii:SlidingdrawerMenu:1.0.1'
 ```
 Or using maven:
 ```
 <dependency>
   <groupId>com.mobeedev</groupId>
   <artifactId>SlidingdrawerMenu</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.`</version>
   <type>pom</type>
 </dependency>
 ```
@@ -31,13 +31,13 @@ Start by injecting menu View:
                 .withToolbarMenuToggle(toolbar)
                 .inject()
 ```
-Use `SlidingNavigation` to get all controll you need over menu:
+Use `SlidingNavigation` to get all control you need over menu:
 ```kotlin
 SlidingNavigation {
     fun isMenuClosed(): Boolean
     fun isMenuOpened(): Boolean
     fun isMenuLocked(): Boolean
-    fun getLayout(): SlidingNavigation // if you need specific controll over menuView
+    fun getLayout(): SlidingNavigation // if you need specific control over menuView
     fun closeMenu()
     fun closeMenu(animated: Boolean)
     fun openMenu()
@@ -46,7 +46,7 @@ SlidingNavigation {
 }
 ```
 
-You can customize all option in `SlidingMenuBuilder`.
+You can customize all options in `SlidingMenuBuilder`.
 
 #### Transformations
 You can change menu transformations using `SlidingMenuBuilder`.

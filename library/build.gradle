@@ -15,7 +15,7 @@ publish {
     userOrg = 'czerwii'
     groupId = 'com.czerwii'
     artifactId = 'SlidingdrawerMenu'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'Sliding drawer menu with animation. ios styled'
     website = 'https://github.com/czerwix/SlidingDrawerMenu'
 }
@@ -27,7 +27,7 @@ android {
         minSdkVersion 18
         targetSdkVersion 27
         versionCode 1
-        versionName "1.0.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
