@@ -52,7 +52,7 @@ You can customize all options in `SlidingMenuBuilder`.
 You can change menu transformations using `SlidingMenuBuilder`.
 
 ```kotlin
-new SlidingMenuBuilder(this)
+SlidingMenuBuilder(this)
   .withDragDistance(140) //Horizontal translation of a view. Default == 180dp
   .withRootViewScale(0.7f) //Content view's scale will be interpolated between 1f and 0.7f. Default == 0.65f;
   .withRootViewElevation(10) //Content view's elevation will be interpolated between 0 and 10dp. Default == 8.
