@@ -63,8 +63,8 @@ SlidingMenuBuilder(this)
 #### Menu behavior
 Control all menu behavior
 
-```java
-new SlidingMenuBuilder(this)
+```kotlin
+SlidingMenuBuilder(this)
   .withMenuOpened(true) //Initial menu opened/closed state. Default == false
   .withMenuLocked(false) //If true, a user can't open or close the menu. Default == false.
   .withGravity(SlideGravity.LEFT) //If LEFT you can swipe a menu from left to right, if RIGHT - the direction is opposite. 
